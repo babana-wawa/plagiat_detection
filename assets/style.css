@@ -1,1 +1,76 @@
- 
+/* Styles personnalisés pour l'application Streamlit */
+.stApp {
+    background-color: #167db8c1; /* Couleur de fond bleu grisé */
+}
+
+.main-container {
+    background: rgba(255, 255, 255, 0.85); /* Ajusté pour la translucidité */
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 2rem auto;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    max-width: 1200px;
+}
+
+.title-container {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: linear-gradient(135deg, #6e8efb, #4a6ee0);
+    border-radius: 15px;
+    color: white;
+}
+
+.upload-container, .results-container, .metric-card, .final-score {
+    background: rgba(255, 255, 255, 0.85); /* Ajusté pour la translucidité */
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.upload-container {
+    margin: 1rem 0;
+}
+
+.metric-card {
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.metric-card:hover {
+    transform: translateY(-5px);
+}
+
+.final-score {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1.5rem;
+}
+
+.stButton>button {
+    width: 100%;
+    background: linear-gradient(135deg, #6e8efb, #4a6ee0);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 10px;
+    border: none;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.stButton>button:hover {
+    background: linear-gradient(135deg, #4a6ee0, #6e8efb);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(74, 110, 224, 0.4);
+}
+
+.upload-text {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 0.5rem;
+}
